@@ -8,7 +8,7 @@ import { Cryptocurrencies, News } from "../components";
 import Loader from "./Loader";
 
 const { Title } = Typography;
-
+//it worked
 const Homepage = () => {
   //get function to populate data
   const { data, isFetching } = useGetCryptosQuery(10);
